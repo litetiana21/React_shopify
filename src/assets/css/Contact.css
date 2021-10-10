@@ -1,0 +1,31 @@
+.centerContext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contactClassContext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.formInput {
+  padding: 0.5rem;
+  border-radius: 0;
+  border: 1px solid #ccac81;
+}
+
+.formButton {
+  border-radius: 0;
+  border: 1px solid #ccac81;
+  font-size: 15px;
+}
+
+.formButton:hover {
+  border: 1px solid #ccac81;
+  background-color: #ccac81;
+  color: #fff;
+}

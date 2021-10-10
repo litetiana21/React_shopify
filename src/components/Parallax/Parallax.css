@@ -1,0 +1,35 @@
+.parallaxProductContent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: fit-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: calc(25vw - 10vh);
+}
+
+.parallaxAboutContent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: fit-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: calc(30vw - 10vh);
+}
+
+.parallaxContactContent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: fit-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: calc(30vw - 10vh);
+}

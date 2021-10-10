@@ -1,0 +1,20 @@
+.aboutContext{
+    padding : 9.5rem;
+}
+.aboutRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.header{
+
+    color: #bc9d72;
+    font-style: italic;
+    font-size: 1.5rem;
+}

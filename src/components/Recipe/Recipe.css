@@ -1,0 +1,51 @@
+
+.recipeContainer{  
+    background-image: url(../../assets/images/background.png) !important;
+    background: #fff;
+    background:center;
+    background-repeat:no-repeat;
+    background-size:40%, 50%;
+    width:100%;
+    position: relative;
+    border: 2px solid #bc9d72;
+    padding: 20px; 
+}
+
+.rectangle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.centerOnRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:4rem;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.rowClass{
+    margin:1rem;
+    margin-bottom: 4rem;
+}
+
+.imgClass{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.bottleClass{
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

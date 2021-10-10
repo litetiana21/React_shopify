@@ -1,0 +1,65 @@
+/* .videoCardBackground {
+    background-image: url(../../assets/images/background.png) !important;
+    background: center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:500px;
+    width:100%;
+} */
+
+.image_ {
+    border-radius: 0px !important;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: -0.05rem;
+}
+.image_:hover{
+    /* transform: .5s cubic-bezier(.3,.85,.41,.81),-webkit-transform .5s cubic-bezier(.3,.85,.41,.81); */
+    /* transform: scale(1.25); */
+}
+
+.videoCard {
+    border-radius: 0px;
+    overflow:hidden;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+  
+img.hover-zoom {
+    transition: all 0.6s ease 0s;
+    width: 100%;
+}
+
+img.hover-zoom:hover {
+    transform: scale(1.03);
+    
+}
+
+.container:hover .circleSvg {
+  fill: #bc9d72 !important;
+}
+
+.svgOverImage{
+  position: absolute;
+  top: 35px;
+  left: 37px;
+  width: 42.578px;
+  height: 42.547px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* bottom left text on video card*/
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+  

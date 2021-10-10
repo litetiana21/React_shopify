@@ -1,0 +1,59 @@
+.rectangle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+
+.productModalCard {
+  border-bottom: 0px !important;
+  border-top: 0px !important;
+  border-color: #bc9d72;
+  width: 300px;
+}
+
+.star {
+}
+.checked {
+  color: #bc9d72;
+}
+
+/* ---- button --- */
+
+.exploreButtonClass {
+  border-radius: 0;
+  background: #fff;
+  color: #232323 !important;
+  border-color: #bc9d72 !important;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.exploreButtonClass:hover {
+  border-radius: 0;
+  color: #fff !important;
+  background: #bc9d72 !important;
+}
+
+.exploreButtonClass:hover line {
+  stroke: #fff !important;
+}
+
+.exploreButtonClass:hover polyline {
+  stroke: #fff !important;
+}
+
+.iconArrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}
+
+.modalCloseButton {
+  border: 0px;
+}
+.modalCloseButton:hover {
+  background-color: #fff;
+}

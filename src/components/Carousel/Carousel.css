@@ -1,0 +1,103 @@
+/* .carousel-control-next {
+    font-size: 100px !important;
+    font-weight: bold;
+}
+.carousel-control-next:hover {
+    background-color: transparent;
+    font-weight: lighter;
+    transform: scale(1.3);
+    margin-right: 10px; 
+}
+.carousel-control-prev {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.carousel-control-prev:hover {
+    background-color: transparent;
+    font-weight: lighter;
+    transform: scale(1.3); 
+    margin-left: 10px; 
+} */
+
+.carouselText {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carouselButton {
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: "center";
+}
+.btn-outline-secondary {
+  border-radius: 0;
+  color: #fff !important;
+  border-color: #bc9d72 !important;
+}
+
+.btn-outline-secondary:hover {
+  border-radius: 0;
+  background: #bc9d72 !important;
+}
+
+/* .carousel-indicators{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 2px;
+} */
+
+.carousel-control-next-icon {
+  height: 3rem !important;
+  width: 4rem;
+}
+
+.carousel-control-prev-icon {
+  height: 3rem !important;
+  width: 4rem;
+}
+
+/* ---- button --- */
+
+.exploreButtonClass {
+  border-radius: 0;
+  background: transparent;
+  color: #fff !important;
+  border-color: #bc9d72 !important;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.exploreButtonClass:hover {
+  border-radius: 0;
+  color: #fff !important;
+  background: #bc9d72 !important;
+}
+
+.exploreButtonClass line {
+  stroke: #fff !important;
+}
+
+.exploreButtonClass polyline {
+  stroke: #fff !important;
+}
+
+.exploreButtonClass:hover line {
+  stroke: #fff !important;
+}
+
+.exploreButtonClass:hover polyline {
+  stroke: #fff !important;
+}
+
+.iconArrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}

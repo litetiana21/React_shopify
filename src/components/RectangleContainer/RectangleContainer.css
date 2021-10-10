@@ -1,0 +1,13 @@
+
+.rectangleContainer{  
+    /* background-image: url(../../assets/images/background.png) !important; */
+    background: #fff;
+    background:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    /* height:500px; */
+    /* width:100%; */
+    position: relative;
+    border: 1px solid #bc9d72;
+    padding: 20px; 
+}

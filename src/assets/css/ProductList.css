@@ -1,0 +1,155 @@
+.productContainer {
+  background: #fff;
+  background: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  border: 2px solid #bc9d72;
+  padding: 20px;
+}
+
+.productListContainer {
+  margin: 3rem;
+}
+
+.center {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  align-content: right;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bc9d72;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.hrClass {
+  border: 2px;
+  color: #bc9d72;
+  left: 0;
+  position: absolute;
+}
+
+/* Filter Section */
+.filterClass {
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+/* line between two circles */
+
+.rental-manager-progress-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #bc9d72;
+  padding-top: 15px;
+  margin-top: 35px;
+}
+
+.rental-manager-progress-bar-container div {
+  background-color: #bc9d72;
+  margin-top: -20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.filterButtonClass {
+  border-radius: 0;
+  background: #fff;
+  color: #232323 !important;
+  border-color: #bc9d72 !important;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.filterButtonClass:hover {
+  border-radius: 0;
+  color: #fff !important;
+  background: #bc9d72 !important;
+}
+
+.filterButtonClass:hover line {
+  stroke: #fff !important;
+}
+
+.filterButtonClass:hover polyline {
+  stroke: #fff !important;
+}
+
+.iconArrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}
+
+.iconArrow line {
+  stroke: #232323 !important;
+}
+
+.iconArrow polyline {
+  stroke: #232323 !important;
+}
+
+.spanPriceInterval {
+  padding-left: 1rem;
+}
+
+/*---- DRINK TYPE ----*/
+.drinkTypes {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Crimson Pro";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.35em;
+  margin-bottom: 0.5rem !important;
+}
+.drinkTypes a {
+  text-decoration: none;
+  color: #bc9d72;
+}
+.drinkTypes:hover a {
+  color: #bc9d72;
+}
+
+/* ---- TAGS ---- */
+.tags {
+  color: #191919;
+  font-size: 18px !important;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: inherit;
+  font-weight: inherit;
+  margin: 2px;
+  display: inline-block;
+}
+.tags:hover {
+  color: #bc9d72;
+}
+
+.star {
+}
+.checked {
+  color: #bc9d72;
+}
+
+.dropdown-toggle {
+  box-shadow: 0;
+  border-radius: 0;
+  border: 1px solid #bc9d72;
+}
+
+.btn:focus {
+  box-shadow: 0;
+}

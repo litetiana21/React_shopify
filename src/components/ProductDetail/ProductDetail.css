@@ -1,0 +1,19 @@
+.rectangle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+
+.productCard {
+  border-bottom: 0px !important;
+  border-top: 0px !important;
+  border-color: #bc9d72;
+  width: 600px;
+}
+
+.star {
+}
+.checked {
+  color: #bc9d72;
+}
